@@ -1,26 +1,15 @@
+h3{
+    color: chocolate;
+    background-color: cornflowerblue;
+    font-size: 60px;
+}
 
-        h2{
-            background-color: blueviolet;
-            color: burlywood;
-            font-size: 50px;
-        }
-        h1{
-            color: chartreuse;
-            font-size: 70px;
-            background-color: blueviolet;
-        }
-        h1{
-            color: blue;
-            font-size: 170px;
-            background-color: aquamarine;
-        }
-        .heading_color1{
-            color: red;
-            background-color: aquamarine;
-            font-size: 40px;
-        }
-        .heading_color2{
-            color: orange;
-            background-color: aquamarine;
-            font-size: 50px;
-        }
+h4{
+    color: aliceblue;
+    background-color: black;
+}
+
+h2{
+    color: crimson;
+    background-color: deepskyblue;
+}
