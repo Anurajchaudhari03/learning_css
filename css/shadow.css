@@ -1,0 +1,17 @@
+.b_shadow1{
+    box-shadow: 7px 8px 9px red;
+}
+
+.b_shadow2{
+    box-shadow: 8px 10px 12px blue;
+}
+
+.d_shadow1{
+    width: 450px;
+    filter: drop-shadow(8px 7px 9px black);
+}
+
+.d_shadow2{
+    width: 450px;
+    filter: drop-shadow(10px 8px 9px orange);
+}
