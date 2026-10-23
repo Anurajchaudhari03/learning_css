@@ -1,0 +1,33 @@
+/* Border Styles */
+.b_properties1{
+    border: 12px solid aquamarine;
+}
+
+.b_properties2{
+    border: 12px dashed aquamarine;
+}
+
+.b_properties3{
+    border: 12px dotted aquamarine;
+}
+
+.b_properties4{
+    border: 12px double aquamarine;
+}
+
+.b_properties5{
+    border: 12px inset aquamarine;
+}
+
+.b_properties6{
+    border: 12px outset aquamarine;
+}
+/* multi color border */
+.b_properties7{
+    border: 12px solid;
+    border-color: black red black red;
+}
+/* Border radius */
+.b_properties8{
+    border-radius: 15px;
+}

@@ -1,0 +1,29 @@
+.f_family1{
+    font-family: monospace;
+}
+
+.f_family2{
+    font-family: cursive;
+}
+
+.f_family3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.f_family4{
+    font-family: fantasy;
+}
+
+.f_family5{
+    font-family: Franklin Gothic Medium;
+}
+
+.f_weight{
+    font-weight: 700;
+    font-style: italic;
+}
+
+.f_weight1{
+    font-weight: 900;
+    font-style: inherit;
+}
