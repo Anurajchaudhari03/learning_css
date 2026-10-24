@@ -1,0 +1,23 @@
+.flex-items{
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    font-weight: 900px;
+    font-size: 40px;
+    margin: 20px;
+    border: 2px solid red;
+    padding: 10px;
+    color: aquamarine;
+    display: flex;
+    justify-content: center;
+    /* Horizontal center */
+    align-items: center;
+    /* vertical center */
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}

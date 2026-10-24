@@ -1,0 +1,21 @@
+.linear{
+    height: 400px;
+    background: linear-gradient(orange,white,green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    font-size: 55px;
+}
+.radial{
+    height: 800px;
+    background: radial-gradient(white,orange,red,gold);
+}
+.conic{
+    height: 500px;
+    background: conic-gradient(red,white,yellow,green);
+}
+.g_image{
+    width: 40px;
+}
