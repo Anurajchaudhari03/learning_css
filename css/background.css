@@ -9,10 +9,22 @@
     font-size: 55px;
 }
 .radial{
-    height: 800px;
+    width: 500px;
+    height: 500px;
     background: radial-gradient(white,orange,red,gold);
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .conic{
     height: 500px;
     background: conic-gradient(red,white,yellow,green);
+}
+.radial img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 250px;
+    border: solid rgba(255, 183, 0, 0.642);
 }
