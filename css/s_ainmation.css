@@ -1,0 +1,21 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: relative;
+    border-radius: 50%;
+    animation: movingcircle;
+    -webkit-animation: movingcircle;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    animation-direction: alternate;
+}
+
+@keyframes movingcircle{
+    0%{background-color: yellow;left: 0px;top: 0px;}
+    25%{background-color: red;left: 300px;top: 0px;}
+    50%{background-color: green;left: 300px;top: 200px;}
+    75%{background-color: blue;left: 0px;top: 200px;}
+    100%{background-color: yellow;left: 0px;top: 0px;}
+}
