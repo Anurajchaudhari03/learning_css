@@ -3,19 +3,38 @@ div{
     height: 200px;
     background-color: yellow;
     position: relative;
-    border-radius: 50%;
+    border-radius: 60%;
     animation: movingcircle;
     -webkit-animation: movingcircle;
-    animation-duration: 0.5s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-delay: 3s;
-    animation-direction: alternate;
+    /* animation-direction: alternate; */
 }
-
 @keyframes movingcircle{
     0%{background-color: yellow;left: 0px;top: 0px;}
     25%{background-color: red;left: 300px;top: 0px;}
     50%{background-color: green;left: 300px;top: 200px;}
     75%{background-color: blue;left: 0px;top: 200px;}
     100%{background-color: yellow;left: 0px;top: 0px;}
+}
+
+ .div1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    background-image: url("../images/emojipng.png");
+    position: sticky;
+    background-size: cover;
+    animation:image;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+@keyframes image{
+    0%{background-image: url("../images/emojipng.png");left: 0px;top: 0px;}
+    25%{background-image: url("../images/ganeshji.jpeg.jpeg");left: 300px;top: 0px;}
+    50%{background-image: url("../images/headphone.jpg");left: 300px;top: 200px;}
+    75%{background-image: url("../images/mountains.jpg");left: 0px;top: 200px;}
+    100%{background-image: url("../images/emojipng.png");left: 0px;top: 0px;}
 }
